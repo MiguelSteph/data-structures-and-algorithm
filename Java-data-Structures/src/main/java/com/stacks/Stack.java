@@ -15,7 +15,7 @@ package com.stacks;
  *
  * @param <Item>
  */
-public interface Stack<Item> {
+public interface Stack<Item> extends Iterable<Item>{
 
     /**
      * Removes and return the object at the top of this stack.

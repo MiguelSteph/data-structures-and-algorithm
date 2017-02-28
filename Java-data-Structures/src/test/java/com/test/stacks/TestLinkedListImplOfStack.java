@@ -1,21 +1,15 @@
-/**
- * Test the Stack datastruture.
- */
 package com.test.stacks;
+
+
+import com.stacks.LinkedListImplOfStack;
+import com.stacks.Stack;
 
 import junit.framework.TestCase;
 
-import com.stacks.ArrayImplOfStack;
-import com.stacks.Stack;
-
-/**
- * @author MacBook
- *
- */
-public class TestArrayImplOfStack extends TestCase{
+public class TestLinkedListImplOfStack extends TestCase{
 
     public void testStack() {
-        Stack<String> stack = new ArrayImplOfStack<>(87);
+        Stack<String> stack = new LinkedListImplOfStack<>();
         assertEquals(true, stack.isEmpty());
         
         // testing push
@@ -81,5 +75,4 @@ public class TestArrayImplOfStack extends TestCase{
             assertNull(e);
         }
     }
-
 }

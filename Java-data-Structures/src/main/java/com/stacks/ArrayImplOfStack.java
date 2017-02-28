@@ -12,12 +12,14 @@ import java.util.Iterator;
  * the stack.
  *
  * {@link https://en.wikipedia.org/wiki/Stack_(abstract_data_type)}
+ * 
+ * This is a Resizing Array implementation of the Stack API
  *
  * @author STEPHANE MIGUEL KAKANAKOU (Skakanakou@gmail.com)
  *
  * @param <Item>
  */
-public class ArrayImplOfStack<Item> implements Stack<Item>, Iterable<Item> {
+public class ArrayImplOfStack<Item> implements Stack<Item> {
 
     /*** Contains the size of the stack. */
     private int arraySize;
