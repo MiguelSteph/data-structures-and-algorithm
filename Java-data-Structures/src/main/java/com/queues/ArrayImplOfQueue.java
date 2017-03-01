@@ -148,9 +148,11 @@ public class ArrayImplOfQueue<Item> implements Queue<Item> {
     @SuppressWarnings("unchecked")
     private void resize(int newCapacity) {
         Item[] newContents = (Item[]) new Object[newCapacity];
+        int arrayIndex = 0;
         for (int i = 0; i < this.topIndex; i++) {
-            if(contents[i] != null)
-                newContents[i] = this.contents[i];
+            if(contents[i] != null){
+                newContents[arrayIndex++] = this.contents[i];
+            }
         }
         this.contents = newContents;
         this.capacity = newCapacity;

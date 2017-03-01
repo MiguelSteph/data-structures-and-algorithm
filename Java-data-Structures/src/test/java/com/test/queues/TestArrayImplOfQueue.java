@@ -8,15 +8,14 @@ import junit.framework.TestCase;
 public class TestArrayImplOfQueue extends TestCase{
 
     public void testEmpty() {
-        
-        // test empty deque
+        // test empty queue
         Queue<String> que = new ArrayImplOfQueue<String>();
         assertEquals(0, que.size());
         assertEquals(true, que.isEmpty());
     }
     
     public void testQueueOperations() {
-        Queue<String> que = new ArrayImplOfQueue<String>();
+        Queue<String> que = new ArrayImplOfQueue<String>(87);
         assertEquals(0, que.size());
         
         // test add front 
