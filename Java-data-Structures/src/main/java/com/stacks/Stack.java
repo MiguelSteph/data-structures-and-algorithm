@@ -15,7 +15,7 @@ package com.stacks;
  *
  * @param <Item>
  */
-public interface Stack<Item> extends Iterable<Item>{
+public interface Stack<Item> extends Iterable<Item> {
 
     /**
      * Removes and return the object at the top of this stack.
@@ -42,6 +42,9 @@ public interface Stack<Item> extends Iterable<Item>{
      *
      * @param item
      *            the item to push on the top of the stack
+     *            
+     * @exception java.lang.IllegalStateException
+     *                if item is null
      */
     void push(Item item);
 
@@ -68,7 +71,7 @@ public interface Stack<Item> extends Iterable<Item>{
      * Returns true if this stack contains the specified element.
      *
      * @param item
-     *            the item to check for.
+     *            the item to look for.
      *
      * @return true if the stack contains the item and false if not.
      */

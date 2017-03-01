@@ -92,6 +92,8 @@ public class ArrayImplOfStack<Item> implements Stack<Item> {
     /*** {@inheritDoc} */
     @Override
     public void push(Item item) {
+        if(item == null)
+            throw new IllegalStateException("Null Item");
         if (arraySize >= capacity) {
             this.resize(2 * this.capacity);
         }
