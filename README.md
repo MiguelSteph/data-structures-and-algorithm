@@ -11,16 +11,18 @@ Actually the repository contains the following data structure :
 
 - [List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/List.java)
 	* [Resizing Array Implementation of Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/ArrayImplOfList.java)
+<br/><br/>
 
 
 - [Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/stacks/Stack.java)
 	* [Resizing Array Implementation of Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/stacks/ArrayImplOfStack.java)
 	* [Linked List Implementation of Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/stacks/LinkedListImplOfStack.java)
-
+<br/><br/>
 
 - [Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/Queue.java)
 	* [Resizing Array Implementation of Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/ArrayImplOfQueue.java)
 	* [Linked List Implementation of Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/LinkedListImplOfQueue.java)
+<br/><br/>
 
 - [Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
 	* [Array implementation of Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
