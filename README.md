@@ -10,7 +10,7 @@ This repository is created by Stephane Miguel KAKANAKOU. For any questions, you 
 Actually the repository contains the following data structure : 
 
 - [List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/List.java)
-	* [Resizing Array Implementation of Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/ArrayImplOfList.java)
+	* [Resizing Array Implementation of List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/ArrayImplOfList.java)
 <br/><br/>
 
 
