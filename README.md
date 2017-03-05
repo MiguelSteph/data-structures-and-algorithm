@@ -26,6 +26,9 @@ Actually the repository contains the following data structure :
 
 - [Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
 	* [Array implementation of Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
+<br/><br/>
+
+- [Disjoint-Set](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/disjointsets/DisjointSet.java)
 
 I will add other data structures very soon.
 
