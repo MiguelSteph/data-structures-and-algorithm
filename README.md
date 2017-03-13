@@ -21,12 +21,14 @@ Actually the repository contains the following data structure :
 	* [Linked List Implementation of Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/LinkedListImplOfQueue.java)
 
 - [Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
-	* [Array implementation of Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
+	* [Binary Heap implementation of Priority Queue](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/queues/PriorityQueue.java)
 
 - [Disjoint-Set](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/disjointsets/DisjointSet.java)
 
 - [SymbolTable](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SymbolTable.java)
 	* [Binary Search Tree Implementation of SymbolTable](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SymbolTable.java)
+	* [HashTable Implementation of SymbolTable using Linear Probing](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/LinearProbingSymbolTableImpl.java)
+	* [HashTable Implementation of SymbolTable using Separate Chaining](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SeparateChainingSymbolTableImpl.java)
 <br/><br/>
 
 I will add other data structures very soon.
