@@ -12,6 +12,9 @@ Actually the repository contains the following data structure :
 - [List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/List.java)
 	* [Resizing Array Implementation of List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/ArrayImplOfList.java)
 
+- [LinkedList](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/linkedlist/LinkedList.java)
+	* [Single LinkedList](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/linkedlist/ShingleLinkedList.java)
+
 - [Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/stacks/Stack.java)
 	* [Resizing Array Implementation of Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/stacks/ArrayImplOfStack.java)
 	* [Linked List Implementation of Stack](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/stacks/LinkedListImplOfStack.java)
