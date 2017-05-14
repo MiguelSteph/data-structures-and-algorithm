@@ -134,7 +134,7 @@ public interface LinkedList<Item> extends Iterable<Item> {
      * @param index
      * 
      * @exception IllegalArgumentException
-     *                when index < 0 or index >size
+     *                when index < 0 or index >= size
      * 
      */
     void erase(int index);
