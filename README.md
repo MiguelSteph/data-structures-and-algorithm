@@ -1,13 +1,13 @@
-## Data Structure Made Easy In Java
+## Data Structure and Algorithm Made Easy In Java
 
 A **data structure** is a particular way of organizing data in a computer so that it can be used efficiently. Different kinds of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks. 
 
-This is a collection of abstract **data structures** implemented in Java. The code is very commented to allow an easy comprehension. Every data structure is well tested.
+This is a collection of abstract **data structures** and **algorithms** implemented in Java. The code is well commented to allow an easy comprehension. Every data structure is well tested.
 
-This repository is created by Stephane Miguel KAKANAKOU. For any questions, you can contact me at <Skakanakou@gmail.com>
+You can contact me at <Skakanakou@gmail.com>
 
-## The following data structures are implemented :
-Actually the repository contains the following data structure : 
+## Data Structures :
+This repo contains the following data structure : 
 
 - [List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/List.java)
 	* [Resizing Array Implementation of List](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/lists/ArrayImplOfList.java)
@@ -35,10 +35,16 @@ Actually the repository contains the following data structure :
 	* [HashTable Implementation of SymbolTable using Separate Chaining](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SeparateChainingSymbolTableImpl.java)
 <br/><br/>
 
-I will add other data structures very soon.
+## Algorithm on Graph
+### Graph representation
+We have the following three graph representation :
 
-Feel free to contribute to this repository.
+- [Edge List representation of graph](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphEdgeListRepresentation.java) 
+
+- [Adjacency Matrix representation of graph](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphAdjacencyMatrixRepresentation.java)
+
+- [Adjacency List representation of graph](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphAdjacencyListRepresentation.java)
 
 ## Licence
 The code is licensed under MIT License.
-
+Feel free to contribute to this repository.
