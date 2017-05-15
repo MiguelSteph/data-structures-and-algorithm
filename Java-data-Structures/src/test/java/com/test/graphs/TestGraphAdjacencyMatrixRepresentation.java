@@ -1,15 +1,16 @@
 package com.test.graphs;
 
+import com.graphs.GraphAdjacencyMatrixRepresentation;
 import com.graphs.GraphEdgeListRepresentation;
 
 import junit.framework.TestCase;
 
-public class TestGraphEdgeListRepresentation extends TestCase {
+public class TestGraphAdjacencyMatrixRepresentation extends TestCase {
 
-    public void testGraphEdgeListRepresentationOperations() {
+    public void testGraphAdjacencyMatrixRepresentationOperations() {
 
         // Undirected graph
-        GraphEdgeListRepresentation graph = new GraphEdgeListRepresentation(10, false);
+        GraphAdjacencyMatrixRepresentation graph = new GraphAdjacencyMatrixRepresentation(10, false);
         graph.addEdge(0, 1);
         graph.addEdge(0, 6);
         graph.addEdge(0, 8);
@@ -30,10 +31,10 @@ public class TestGraphEdgeListRepresentation extends TestCase {
         assertEquals(true, graph.hasEdge(7, 8));
         assertEquals(true, graph.hasEdge(8, 7));
         assertEquals(false, graph.hasEdge(0, 5));
-        // System.out.println(graph.toString());
+        System.out.println(graph.toString());
 
         // Directed graph
-        graph = new GraphEdgeListRepresentation(10, true);
+        graph = new GraphAdjacencyMatrixRepresentation(10, true);
         graph.addEdge(0, 1);
         graph.addEdge(0, 6);
         graph.addEdge(0, 8);
