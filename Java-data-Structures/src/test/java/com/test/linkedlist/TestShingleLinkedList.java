@@ -50,9 +50,9 @@ public class TestShingleLinkedList extends TestCase{
         
         list.push_front("java");
         list.push_back("and");
-        for (String s : list) {
-            System.out.print(s+" ");
-        }
+//        for (String s : list) {
+//            System.out.print(s+" ");
+//        }
         
         list.reverse();
         assertEquals("yes", list.value_at(1));

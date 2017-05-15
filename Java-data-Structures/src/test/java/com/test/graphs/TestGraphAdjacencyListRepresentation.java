@@ -1,15 +1,15 @@
 package com.test.graphs;
 
-import com.graphs.GraphEdgeListRepresentation;
+import com.graphs.GraphAdjacencyListRepresentation;
 
 import junit.framework.TestCase;
 
-public class TestGraphEdgeListRepresentation extends TestCase {
+public class TestGraphAdjacencyListRepresentation extends TestCase {
 
-    public void testGraphEdgeListRepresentationOperations() {
+    public void testGraphAdjacencyListRepresentationOperations() {
 
         // Undirected graph
-        GraphEdgeListRepresentation graph = new GraphEdgeListRepresentation(10, false);
+        GraphAdjacencyListRepresentation graph = new GraphAdjacencyListRepresentation(10, false);
         graph.addEdge(0, 1);
         graph.addEdge(0, 6);
         graph.addEdge(0, 8);
@@ -32,7 +32,7 @@ public class TestGraphEdgeListRepresentation extends TestCase {
         assertEquals(false, graph.hasEdge(0, 5));
 
         // Directed graph
-        graph = new GraphEdgeListRepresentation(10, true);
+        graph = new GraphAdjacencyListRepresentation(10, true);
         graph.addEdge(0, 1);
         graph.addEdge(0, 6);
         graph.addEdge(0, 8);
@@ -53,6 +53,12 @@ public class TestGraphEdgeListRepresentation extends TestCase {
         assertEquals(true, graph.hasEdge(7, 8));
         assertEquals(false, graph.hasEdge(8, 7));
         assertEquals(false, graph.hasEdge(0, 5));
+
+        GraphAdjacencyListRepresentation reverseGraph = graph.reverseGraph();
+        assertEquals(false, reverseGraph.hasEdge(7, 8));
+        assertEquals(true, reverseGraph.hasEdge(8, 7));
+        assertEquals(false, reverseGraph.hasEdge(0, 5));
+        
     }
 
 }

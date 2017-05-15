@@ -1,7 +1,6 @@
 package com.test.graphs;
 
 import com.graphs.GraphAdjacencyMatrixRepresentation;
-import com.graphs.GraphEdgeListRepresentation;
 
 import junit.framework.TestCase;
 
@@ -31,7 +30,6 @@ public class TestGraphAdjacencyMatrixRepresentation extends TestCase {
         assertEquals(true, graph.hasEdge(7, 8));
         assertEquals(true, graph.hasEdge(8, 7));
         assertEquals(false, graph.hasEdge(0, 5));
-        System.out.println(graph.toString());
 
         // Directed graph
         graph = new GraphAdjacencyMatrixRepresentation(10, true);
@@ -55,7 +53,6 @@ public class TestGraphAdjacencyMatrixRepresentation extends TestCase {
         assertEquals(true, graph.hasEdge(7, 8));
         assertEquals(false, graph.hasEdge(8, 7));
         assertEquals(false, graph.hasEdge(0, 5));
-        System.out.println(graph.toString());
     }
 
 }
