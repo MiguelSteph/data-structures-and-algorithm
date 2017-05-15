@@ -223,7 +223,7 @@ public class GraphEdgeListRepresentation {
      */
     public List<Edge> getSortedEdgeListByWeight() {
         Collections.sort(edgeList);
-        return new ArrayList<>(edgeList); 
+        return edgeList; 
     }
 
     /**
@@ -232,7 +232,7 @@ public class GraphEdgeListRepresentation {
      * @return the list of edge of the graph.
      */
     public List<Edge> getEdgeslist() {
-        return new ArrayList<>(edgeList);
+        return edgeList;
     }
 
     @Override
