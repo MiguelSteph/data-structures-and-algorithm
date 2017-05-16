@@ -107,7 +107,7 @@ public class ConnectedComponents {
         int po = num;
         for (int v : graph.getAdjNode(u)) {
             if (!visited[v]) {
-                po = explore(graph, v, visited, num + 1, postOrder);
+                po = explore(graph, v, visited, po + 1, postOrder);
             }
         }
         postOrder[u] = new NodePostOrder(u, po);
