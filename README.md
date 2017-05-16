@@ -45,6 +45,18 @@ We have the following three graph representation :
 
 - [Adjacency List representation of graph](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphAdjacencyListRepresentation.java)
 
+### Algorithm in Graph
+
+- [Problem of Reachability](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/ReachabilityInGraph.java) : Given a graph G and a vertex S, we want to output the collection of vertices v of G so that there is a path from S to v.
+
+- [Connected Components in Undirected graph](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/ConnectedComponents.java)
+
+- [Strongly Connected Components in Directed Graph](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/ConnectedComponents.java)
+
+- [Detect Cycle in Graph with DFS](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/DetectCycle.java)
+
+- [Linear ordering of Directed Graph with Topological Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphLinearOrder.java)
+
 ## Licence
 The code is licensed under MIT License.
 Feel free to contribute to this repository.
