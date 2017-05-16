@@ -100,7 +100,7 @@ public class ConnectedComponents {
 
         return connectedComponents;
     }
-    
+
     private static int explore(GraphAdjacencyListRepresentation graph, int u, boolean[] visited, int num,
             NodePostOrder[] postOrder) {
         visited[u] = true;
@@ -122,7 +122,7 @@ public class ConnectedComponents {
             }
         }
     }
-    
+
     private static class NodePostOrder implements Comparable<NodePostOrder> {
         int vertice;
         int postOrder;
