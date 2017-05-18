@@ -2,17 +2,17 @@ package com.graphs;
 
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.PriorityQueue;
+
+import com.graphs.GraphEdgeListRepresentation.Edge;
 
 /**
  * Given a graph G and a vertex S, we want to find the shortest path from S to
- * any other vertex.
+ * any other vertex. Here we use the Bellman Ford algorithm.
  * 
  * @author STEPHANE MIGUEL KAKANAKOU (Skakanakou@gmail.com)
  *
  */
-public class ShortestPathWithDijkstra {
+public class ShortestPathWithBellmanFord {
 
     /*** The Source vertex */
     private int S;
@@ -32,44 +32,43 @@ public class ShortestPathWithDijkstra {
      *                IllegalArgumentException if the given graph contains
      *                negative edge weight.
      */
-    public ShortestPathWithDijkstra(GraphAdjacencyListRepresentation graph, int S) {
+    public ShortestPathWithBellmanFord(GraphEdgeListRepresentation graph, int S) {
         int v_size = graph.getV_Size();
-        if ((graph.hasNegativeWeightEdge()) || (S < 0) || (S >= v_size))
+        if ((S < 0) || (S >= v_size))
             throw new IllegalArgumentException("Invalid Argument");
         this.S = S;
         dist = new int[v_size];
         prev = new int[v_size];
-        Arrays.fill(dist, -1);
+        Arrays.fill(dist, Integer.MAX_VALUE);
         Arrays.fill(prev, -1);
 
-        dijkstra(graph);
+        bellManFord(graph);
 
     }
 
     /*
-     * Private method that perform the dijkstra algorithm.
+     * Private method that perform the Bellman-Ford algorithm.
      */
-    private void dijkstra(GraphAdjacencyListRepresentation graph) {
+    private void bellManFord(GraphEdgeListRepresentation graph) {
         dist[S] = 0;
-        PriorityQueue<VerticePriority> pq = new PriorityQueue<>();
-        pq.add(new VerticePriority(S, dist[S]));
-        int u;
-        List<Integer> adjVertices, adjWeight;
-        while (!pq.isEmpty()) {
-            u = pq.poll().vertice;
-            int v, w;
-            adjVertices = graph.getAdjNode(u);
-            adjWeight = graph.getAdjWeight(u);
-            for (int i = 0; i < adjVertices.size(); i++) {
-                v = adjVertices.get(i);
-                w = adjWeight.get(i);
-                // relax the edge
-                if ((dist[v] == -1) || (dist[v] > dist[u] + w)) {
-                    dist[v] = dist[u] + w;
-                    prev[v] = u;
-                    pq.add(new VerticePriority(v, dist[v]));
-                }
+        int v_size = graph.getV_Size();
+        for (int i = 0; i < v_size - 1; i++) {
+            for (Edge edge : graph.getEdgeslist()) {
+                relax(edge);
             }
+        }
+    }
+
+    /*
+     * Relax the given edge.
+     */
+    private void relax(Edge edge) {
+        int u = edge.u;
+        int v = edge.v;
+        int w = edge.w;
+        if ((dist[u] != Integer.MAX_VALUE) && (dist[v] > dist[u] + w)) {
+            dist[v] = dist[u] + w;
+            prev[v] = u;
         }
     }
 
@@ -91,7 +90,7 @@ public class ShortestPathWithDijkstra {
      * @return The shortest path
      */
     public LinkedList<Integer> getShortestPath(int v) {
-        if (dist[v] == -1)
+        if (dist[v] == Integer.MAX_VALUE)
             return null;
         LinkedList<Integer> directPath = new LinkedList<>();
         while (v != S) {
@@ -100,26 +99,6 @@ public class ShortestPathWithDijkstra {
         }
         directPath.addFirst(S);
         return directPath;
-    }
-
-    private class VerticePriority implements Comparable<VerticePriority> {
-        int vertice;
-        int priority;
-
-        public VerticePriority(int v, int p) {
-            vertice = v;
-            priority = p;
-        }
-
-        @Override
-        public int compareTo(VerticePriority other) {
-            if (this.priority < other.priority)
-                return -1;
-            else if (this.priority > other.priority)
-                return 1;
-            return 0;
-        }
-
     }
 
 }
