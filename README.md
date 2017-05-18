@@ -57,6 +57,18 @@ We have the following three graph representation :
 
 - [Linear ordering of Directed Graph with Topological Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphLinearOrder.java)
 
+- [Most Direct Route with Breath First Search (BFS)](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/MostDirectPath.java)
+
+- [Shortest Path with BellMan-Ford algorithm](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/ShortestPathWithBellmanFord.java)
+
+- [Shortest Path with Dijkstra algorithm](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/ShortestPathWithDijkstra.java)
+
+- [Advanced Shortest Path with Bidirectional Dijkstra algorithm](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/ShortestPathWithBidirectionalDijkstra.java)
+
+- [All Shortests Paths With Floyd Warshall algorithm](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/AllShortestPathWithFloydWarshall.java)
+
+- [Minimum Spanning Tree with Kruskal algorithm](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/graphs/GraphMstWithKruskal.java)
+
 ## Licence
 The code is licensed under MIT License.
 Feel free to contribute to this repository.
