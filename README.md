@@ -35,6 +35,21 @@ This repo contains the following data structure :
 	* [HashTable Implementation of SymbolTable using Separate Chaining](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SeparateChainingSymbolTableImpl.java)
 <br/><br/>
 
+## Sorting Algorithm
+- [Selection Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/SelectionSort.java)
+
+- [Insertion Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/InsertionSort.java)
+
+- [Shell Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/ShellSort.java)
+
+- [Merge Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/MergeSort.java)
+
+- [Bottom Up Merge Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/BottomUpMergeSort.java)
+
+- [Quick Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/QuickSort.java)
+
+- [Heap Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/HeapSort.java)
+
 ## Algorithm on Graph
 ### Graph representation
 We have the following three graph representation :
