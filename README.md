@@ -42,6 +42,8 @@ This repo contains the following data structure :
 
 - [Shell Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/ShellSort.java)
 
+- [Counting Sort (only for integer)](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/CountingSort.java)
+
 - [Merge Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/MergeSort.java)
 
 - [Bottom Up Merge Sort](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/sorting/BottomUpMergeSort.java)
