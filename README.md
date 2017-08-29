@@ -33,6 +33,7 @@ This repo contains the following data structure :
 	* [Binary Search Tree Implementation of SymbolTable](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SymbolTable.java)
 	* [HashTable Implementation of SymbolTable using Linear Probing](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/LinearProbingSymbolTableImpl.java)
 	* [HashTable Implementation of SymbolTable using Separate Chaining](https://github.com/MiguelSteph/data-structures/blob/master/Java-data-Structures/src/main/java/com/symboltables/SeparateChainingSymbolTableImpl.java)
+	* [**Red-Black based implementation for Java custom TreeMap**](https://github.com/MiguelSteph/data-structures-and-algorithm/blob/master/Java-data-Structures/src/main/java/com/symboltables/TreeMapCustom.java)
 <br/><br/>
 
 ## Sorting Algorithm
